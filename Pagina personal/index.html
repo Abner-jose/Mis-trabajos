@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Mi Sitio Personal</title>
+
+    <style>
+
+        body{
+            margin:0;
+            font-family: Arial;
+            display:flex;
+            height:100vh;
+        }
+
+        #menu{
+            width:25%;
+            background:#dcdde1;
+            padding:20px;
+            box-sizing:border-box;
+        }
+
+        #contenido{
+            width:75%;
+            border:none;
+        }
+
+        h2{
+            color:#273c75;
+        }
+
+        a{
+            display:block;
+            background:#273c75;
+            color:white;
+            text-decoration:none;
+            padding:12px;
+            margin:10px 0;
+            border-radius:5px;
+        }
+
+        a:hover{
+            background:#40739e;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div id="menu">
+
+        <h2>Menú Principal</h2>
+
+        <a href="hojadevida.html" target="frameContenido">
+            Hoja de Vida
+        </a>
+
+        <a href="notas.html" target="frameContenido">
+            Notas
+        </a>
+
+        <a href="galeria.html" target="frameContenido">
+            Galería
+        </a>
+
+        <a href="video.html" target="frameContenido">
+            Video
+        </a>
+
+        <a href="juego.html" target="frameContenido">
+            Juego
+        </a>
+
+        <a href="manual.html" target="frameContenido">
+            Manual Técnico
+        </a>
+
+    </div>
+
+    <iframe
+        src="hojadevida.html"
+        name="frameContenido"
+        id="contenido">
+    </iframe>
+
+</body>
+</html>
